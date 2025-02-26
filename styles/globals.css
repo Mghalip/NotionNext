@@ -286,3 +286,8 @@ img {
 .adsbygoogle {
   overflow: hidden;
 }
+
+/* Hiding the footer */
+footer, .sticky-nav {
+  display: none !important;
+}
