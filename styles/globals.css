@@ -293,3 +293,10 @@ footer, .sticky-nav {
 .py-14.sticky.top-0 {
   display: none !important;
 }
+
+/* Ensure directory section is visible */
+.directory {
+  display: block !important;
+  z-index: 1000;
+  position: relative;
+}
