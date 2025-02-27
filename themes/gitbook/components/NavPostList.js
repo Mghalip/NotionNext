@@ -32,15 +32,7 @@ const NavPostList = props => {
   )
 
   useEffect(() => {
-    // 展开文件夹
-    setTimeout(() => {
-      const currentPath = decodeURIComponent(router.asPath.split('?')[0])
-      const defaultOpenIndex = getDefaultOpenIndexByPath(
-        categoryFolders,
-        currentPath
-      )
-      setExpandedGroups([defaultOpenIndex])
-    }, 500)
+   
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router, filteredNavPages])
 
