@@ -285,4 +285,13 @@ img {
 
 .adsbygoogle {
   overflow: hidden;
+
+  / 确保隐藏“最后编辑”部分 /
+.wrapper .py-14.sticky.top-0 {
+display: none !important;
+}
+
+/ 隐藏footer和sticky-nav */
+footer, .sticky-nav {
+display: none !important;
 }
