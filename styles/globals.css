@@ -209,6 +209,9 @@ nav {
   margin-right: 0.2rem;
 }
 
+/* .webmention-counts .counts > span {
+  margin-right: .8rem;
+} */
 .webmention-counts .counts > span:not(:last-child):after {
   content: ' • ';
 }
@@ -282,21 +285,4 @@ img {
 
 .adsbygoogle {
   overflow: hidden;
-}
-
-/* Hiding the footer */
-footer, .sticky-nav {
-  display: none !important;
-}
-
-/* Hide the "last edited" section */
-.py-14.sticky.top-0 {
-  display: none !important;
-}
-
-/* Ensure directory section is visible */
-.directory {
-  display: block !important;
-  z-index: 1000;
-  position: relative;
 }
