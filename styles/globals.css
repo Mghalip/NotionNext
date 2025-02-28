@@ -287,12 +287,3 @@ img {
   overflow: hidden;
 }
 
-/* Hiding the footer */
-footer, .sticky-nav {
-  display: none !important;
-}
-
-/* Hide the "last edited" section */
-.py-14.sticky.top-0 {
-  display: none !important;
-}
