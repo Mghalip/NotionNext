@@ -1,26 +1,3 @@
-/* 更改背景为图片 */
-#wrapper {
-  background-image: url(https://example.com/your-image.jpg); /* 将链接替换为您的背景图片地址 */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* 字体更改为Lato、Roboto、Open Sans */
-[id^="theme-"] {
-  font-family: Lato, "Roboto", "Open Sans", sans-serif;
-}
-
-/* 确保隐藏“最后编辑”部分 */
-.wrapper .py-14.sticky.top-0 {
-  display: none !important;
-}
-
-/* 隐藏footer和sticky-nav */
-footer, .sticky-nav {
-  display: none !important;
-}
-
 /* Sticky Navigation */
 .sticky-nav {
   position: sticky;
