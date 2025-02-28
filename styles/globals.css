@@ -1,4 +1,20 @@
-/* Sticky Navigation */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
 .sticky-nav {
   position: sticky;
   z-index: 10;
@@ -26,7 +42,6 @@ nav {
   line-height: 1.5em;
 }
 
-/* 隐藏滚动条 */
 .article-tags::-webkit-scrollbar {
   width: 0 !important;
 }
@@ -270,4 +285,14 @@ img {
 
 .adsbygoogle {
   overflow: hidden;
+}
+
+/* Hiding the footer */
+footer, .sticky-nav {
+  display: none !important;
+}
+
+/* Hide the "last edited" section */
+.py-14.sticky.top-0 {
+  display: none !important;
 }
